@@ -1,0 +1,73 @@
+.Export {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 100px 50px 0 50px;
+  padding: 0 50px 0 50px;
+}
+
+.formExport {
+  display: flex;
+  flex-direction: column;
+  min-width: 550px;
+  /* flex-wrap': wrap; */
+}
+
+.inputDivExport {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  margin: 5px 0 20px 0;
+  width: 100%;
+}
+
+.mainTextExport {
+  margin: 0 0 10px 0;
+  min-width: 150px;
+}
+
+.formLabelExport {
+  min-width: 200px;
+}
+
+.buttonRowExport {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+}
+
+.formInputExport {
+  width: 400px;
+}
+
+.formInputExportDescription {
+  height: 100px;
+}
+
+.secondaryButtonLinkExport {
+  margin: 0px 10px 0px 0%;
+  width: 50%;
+}
+
+.secondaryButtonExport {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.primaryButtonExport {
+  margin: 0px 0% 0% 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.errorTextExport {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  color: #fa003b;
+  margin: 0px 0px 20px 0px;
+}

@@ -1,0 +1,73 @@
+.hostsAdd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 50px 0 50px;
+  padding: 0 50px 0 50px;
+}
+
+.formHostsAdd {
+  display: flex;
+  flex-direction: column;
+  min-width: 550px;
+  min-height: 300px;
+  /* flex-wrap': wrap; */
+}
+
+.inputDivHostsAdd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  margin: 5px 0 20px 0;
+  width: 100%;
+}
+
+.mainTextHostsAdd {
+  margin: 0 0 10px 0;
+  min-width: 150px;
+}
+
+.formLabelHostsAdd {
+  min-width: 145px;
+}
+
+.buttonRowHostsAdd {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 27.5%;
+}
+
+.formInputHostsAdd {
+  width: 400px;
+}
+
+.formInputHostsAddDescription {
+  height: 100px;
+}
+
+.secondaryButtonLinkHostsAdd {
+  margin: 0px 10px 0px 0%;
+  width: 50%;
+}
+
+.secondaryButtonHostsAdd {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.primaryButtonHostsAdd {
+  margin: 0px 0% 0% 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.errorTextHostsAdd {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  color: #fa003b;
+  margin: 0px 0px 20px 0px;
+}

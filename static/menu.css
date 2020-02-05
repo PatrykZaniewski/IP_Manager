@@ -1,0 +1,43 @@
+.menuBox {
+  background: #3b3b3b;
+  border-left: 3px solid #0063a8;
+  border-right: 3px solid #0063a8;
+  border-bottom: 3px solid #0063a8;
+  height: 650px;
+  position: relative;
+  width: 200px;
+  content: "";
+  text-align: center;
+  display: flex;
+  flex: 0 0 200px;
+}
+
+.upperBoxItems {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.lowerBoxItems {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.menuPosition {
+  padding: 5px 0 5px 0;
+  text-decoration: underline #0073c6;
+  border: none;
+  background-color: inherit;
+  font-size: 24px;
+  text-shadow: -5px 2px black;
+  color: #fffff0;
+  font-family: "Source Sans Pro";
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "tnum" on, "lnum" on;
+  text-shadow: -0.08em 0.05em black;
+  color: #fffff0;
+}

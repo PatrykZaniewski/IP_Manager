@@ -1,0 +1,73 @@
+.RacksAdd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 100px 50px 0 50px;
+  padding: 0 50px 0 50px;
+}
+
+.formRacksAdd {
+  display: flex;
+  flex-direction: column;
+  min-width: 550px;
+  min-height: 300px;
+  /* flex-wrap': wrap; */
+}
+
+.inputDivRacksAdd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  margin: 5px 0 20px 0;
+  width: 100%;
+}
+
+.mainTextRacksAdd {
+  margin: 0 0 10px 0;
+  min-width: 150px;
+}
+
+.formLabelRacksAdd {
+  min-width: 145px;
+}
+
+.buttonRowRacksAdd {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 27.5%;
+}
+
+.formInputRacksAdd {
+  width: 400px;
+}
+
+.formInputRacksAddDescription {
+  height: 100px;
+}
+
+.secondaryButtonLinkRacksAdd {
+  margin: 0px 10px 0px 0%;
+  width: 50%;
+}
+
+.secondaryButtonRacksAdd {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.primaryButtonRacksAdd {
+  margin: 0px 0% 0% 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.errorTextRacksAdd {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  color: #fa003b;
+  margin: 0px 0px 20px 0px;
+}

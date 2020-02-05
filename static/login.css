@@ -1,0 +1,40 @@
+.formLogin {
+  margin: 15% 30% 0% 30%;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.inputDivLogin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  margin: 5px 0 20px 0;
+}
+
+.titleLogin {
+  margin: 0px 0px 20px 0px;
+}
+
+.formLabelLogin {
+  min-width: 67px;
+  flex-grow: 1;
+}
+
+.formInputLogin {
+  flex-grow: 5;
+  width: 100%;
+}
+
+.primaryButtonLogin {
+  align-self: center;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+
+.errorTextLogin {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  color: #fa003b;
+}

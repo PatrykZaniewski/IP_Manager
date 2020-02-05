@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: #213133;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.primaryButton {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 1.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.18em;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #fffff0;
+  border: 0em;
+  margin: 0.5%;
+  width: 100%;
+  background-image: linear-gradient(180deg, #0073c6 0%, #003857 100%);
+}
+
+.primaryButton:active {
+  background: #003857;
+}
+
+.secondaryButton {
+  background: linear-gradient(180deg, #ff0000 0%, #003857 99.99%, #003857 100%);
+  border: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 1.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.18em;
+  margin: 0.5%;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #fffff0;
+}
+
+.secondaryButton:active {
+  background: #680000;
+}
+
+.mainText {
+  font-family: "Source Sans Pro";
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "tnum" on, "lnum" on;
+   text-shadow: -0.08em 0.05em black;
+  color: #fffff0;
+}
+
+.mainPageTitle {
+  font-size: 140px;
+  font-style: italic;
+  font-weight: 900;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  margin: 0 10px 0 10px;
+}
+
+.menuBGRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+  background: #3b3b3b;
+  border: 3px solid #0063a8;
+  padding: 2%;
+}
+
+.formInput {
+  background: #282828;
+  border: 1px solid #959595;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #fffff0;
+  padding: 2%;
+}
+
+.formLabel {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #fffff0;
+  letter-spacing: 0.15ex;
+  margin-right: 0.75%;
+}
+
+a:hover {
+  background: #5a5a5a;
+  text-decoration: none;
+  color: #fffff0;
+}
+
+:focus {
+  outline: 0px;
+}
