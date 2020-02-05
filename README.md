@@ -2,5 +2,5 @@
 
 # Authors
 
-- Maciej Kozłowski (@maciekkoz98)
-- Patryk Zaniewski (@patrykzaniewski)
+- [Maciej Kozłowski](https://github.com/maciekkoz98)
+- [Patryk Zaniewski](https://github.com/patrykzaniewski)
